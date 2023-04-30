@@ -25,33 +25,33 @@ dbRef.on("value", function(snapshot) {
 
   // Mengupdate warna kotak-kotak sesuai data parkir
   if (parkirData.parkir_1 === 1) {
-    document.getElementById("parkir_1").style.backgroundColor = "green";
-  } else {
     document.getElementById("parkir_1").style.backgroundColor = "red";
+  } else {
+    document.getElementById("parkir_1").style.backgroundColor = "green";
   }
 
   if (parkirData.parkir_2 === 1) {
-    document.getElementById("parkir_2").style.backgroundColor = "green";
-  } else {
     document.getElementById("parkir_2").style.backgroundColor = "red";
+  } else {
+    document.getElementById("parkir_2").style.backgroundColor = "green";
   }
 
   if (parkirData.parkir_3 === 1) {
-    document.getElementById("parkir_3").style.backgroundColor = "green";
-  } else {
     document.getElementById("parkir_3").style.backgroundColor = "red";
+  } else {
+    document.getElementById("parkir_3").style.backgroundColor = "green";
   }
 
   if (parkirData.parkir_4 === 1) {
-    document.getElementById("parkir_4").style.backgroundColor = "green";
-  } else {
     document.getElementById("parkir_4").style.backgroundColor = "red";
+  } else {
+    document.getElementById("parkir_4").style.backgroundColor = "green";
   }
 
   if (parkirData.parkir_5 === 1) {
-    document.getElementById("parkir_5").style.backgroundColor = "green";
-  } else {
     document.getElementById("parkir_5").style.backgroundColor = "red";
+  } else {
+    document.getElementById("parkir_5").style.backgroundColor = "green";
   }
 
   if (parkirData.gerbang === 1) {
